@@ -95,7 +95,7 @@ export default function Layout() {
           </div>
         </div>
         <div className="container legal">
-          <span>© {new Date().getFullYear()} {company.legalName}. {t('foot.rights')}</span>
+          <span>© {new Date().getFullYear()} {company.legalName}. |Developed by Pacawood Services &reg; {t('foot.rights')}</span>
           <Link to="/admin">{t('foot.staff')}</Link>
         </div>
       </footer>
