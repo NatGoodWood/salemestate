@@ -22,6 +22,7 @@ export const NEW = {
   night: { src: '/images/aerial-night.jpg', sm: '/images/aerial-night-sm.jpg', alt: 'Aerial view of Salem Estate at night' },
   dayRows: { src: '/images/aerial-day-rows.jpg', sm: '/images/aerial-day-rows-sm.jpg', alt: 'Rows of Salem Estate homes from above' },
   nightRows: { src: '/images/aerial-night-rows.jpg', sm: '/images/aerial-night-rows-sm.jpg', alt: 'Salem Estate homes lit up at night' },
+  salem: { src: '/images/salem.jpeg', sm: '/images/salem.jpeg', alt: 'Salem Estate since 1999' },
 };
 
 const art = (n, label, pos) => ({ src: n.src, thumb: n.sm, alt: `${n.alt} (artist\u2019s impression)`, label, pos });
@@ -35,6 +36,7 @@ export const newPhotos = [
   art(NEW.night, 'Salem Estate'),
   art(NEW.dayRows, 'Salem Estate', '50% 45%'),
   art(NEW.nightRows, 'Salem Estate', '50% 45%'),
+  art(NEW.salem, 'Salem Estate', '50% 45%'),
 ];
 export const oldPhotos = [
   old(IMG.aerial1, 'Aerial view of the City of David community', 'City of David'),
@@ -44,5 +46,6 @@ export const oldPhotos = [
   old(IMG.twoBed, 'Two bedroom detached expandable house', 'City of David'),
   old(IMG.adji, 'Homes at Adjiringanor', 'Adjiringanor'),
   old(IMG.fourBed, 'Four bedroom home at Adjiringanor', 'Adjiringanor'),
+  
 ];
 export const galleryPhotos = [...newPhotos, ...oldPhotos];

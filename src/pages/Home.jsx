@@ -14,8 +14,12 @@ import PhotoGrid from '../components/PhotoGrid';
 import { Check } from '../components/Icons';
 
 const budgets = [[1100000, 'GH₵1,100,000'], [1300000, 'GH₵1,300,000'], [1900000, 'GH₵1,900,000'], [3000000, 'GH₵3,000,000']];
-const ticks = ['24/7 security in a gated community', 'Reliable water and electricity', 'Smooth tarred roads', 'Views facing the Aburi hills', 'Bright, airy interiors and ample compound space'];
+const ticks = ['Fully fitted kitchen', 'Fitted air conditioners', 'Motorized Gate', 'Internet connectivity', 'Security surveillance cameras','Maid’s room/quarters', 'Carport', 'Walk in wardrobe', 'Water storage'];
+ 
 
+
+ 
+ 
 export default function Home() {
   const nav = useNavigate();
   const [listings, setListings] = useState(null);

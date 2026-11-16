@@ -7,4 +7,5 @@ export const slides = [
   { img: NEW.night.src, pos: '50% 55%', tag: 'New development', title: 'Flexible ways to own your home', text: 'Custom payment plans, and smooth processing for buyers using a bank mortgage.', to: '/contact', cta: 'Book a private tour' },
   { img: photo(IMG.aerial1, 1800), pos: '50% 50%', tag: 'Now selling', title: 'City of David, Malejor', text: 'A planned community of 800+ homes, with drainage, water and electricity already in place.', to: '/projects/city-of-david', cta: 'View City of David' },
   { img: photo(IMG.adji, 1800), pos: '50% 50%', tag: 'Sold out', title: 'Adjiringanor, East Legon extension', text: 'Over 200 homes in a gated community, delivered and sold out.', to: '/projects/adjiringanor', cta: 'See the project' },
+  { img: photo(IMG.salem, 1800), pos: '50% 50%', tag: 'Active Member of GREEDA', title: 'Since 1999', text: 'Over 20 years of building on trust.', to: '/projects/adjiringanor', cta: 'See the project' },
 ];
