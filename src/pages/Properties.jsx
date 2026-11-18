@@ -1,16 +1,15 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { getPublicListings } from '../lib/api';
+import { listings } from '../content/listings';
 import { toGhs } from '../lib/format';
 import { cities, propertyTypes } from '../config';
 import { t } from '../lib/text';
 import ListingCard from '../components/ListingCard';
 
+const all = listings.filter((l) => l.status !== 'draft');
+
 export default function Properties() {
   const [params, setParams] = useSearchParams();
-  const [all, setAll] = useState(null);
-  const [error, setError] = useState(false);
-  useEffect(() => { getPublicListings().then(setAll).catch(() => setError(true)); }, []);
 
   const g = (k) => params.get(k) || '';
   const set = (k) => (e) => {
@@ -20,7 +19,6 @@ export default function Properties() {
   };
 
   const results = useMemo(() => {
-    if (!all) return [];
     const q = g('q').toLowerCase();
     const list = all.filter((l) =>
       (!q || `${l.title} ${l.location} ${l.city}`.toLowerCase().includes(q)) &&
@@ -33,7 +31,7 @@ export default function Properties() {
     );
     const s = g('sort');
     return list.sort((a, b) => s === 'low' ? toGhs(a) - toGhs(b) : s === 'high' ? toGhs(b) - toGhs(a) : new Date(b.created_at) - new Date(a.created_at));
-  }, [all, params]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [params]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="container section">
@@ -48,7 +46,7 @@ export default function Properties() {
         <label className="field">{t('props.sort')}<select value={g('sort')} onChange={set('sort')}><option value="">{t('props.newest')}</option><option value="low">{t('props.low')}</option><option value="high">{t('props.high')}</option></select></label>
       </div>
 
-      {error ? <p className="error">{t('props.error')}</p> : all === null ? <p className="muted">{t('loading')}</p> : (
+            {(
         <>
           <p className="muted count" aria-live="polite">{t('props.found', { n: results.length })}</p>
           {results.length === 0 ? <div className="panel"><h3>{t('props.none.t')}</h3><p className="muted">{t('props.none.d')}</p><button className="btn btn-ghost" onClick={() => setParams({})}>{t('props.clear')}</button></div>

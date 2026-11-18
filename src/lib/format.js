@@ -12,3 +12,7 @@ export function waNumber(phone = '') {
   const d = phone.replace(/\D/g, '');
   return d.startsWith('0') ? `233${d.slice(1)}` : d;
 }
+
+// "Starting at GH₵1,800,000", or "Contact for price" when no price is set.
+export const priceLine = (l) => (Number(l.price) > 0 ? formatPrice(l.price, l.currency) : 'Contact for price');
+export const hasPrice = (l) => Number(l.price) > 0;

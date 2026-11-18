@@ -14,7 +14,7 @@ export const communityAmenities = [
 export const projects = [
   {
     slug: 'salem-estate', name: 'Salem Estate', status: 'selling', badge: 'Newest development', location: 'Adenta\u2013Oyibi Road, before Valley View University',
-    tagline: 'A gated community of modern 3 and 4-bedroom homes, facing the Aburi hills.',
+    tagline: 'A gated community of modern 3 and 4-bedroom homes, facing the Aburi hills, off Malejor School Junction, before Valley View University on the Adenta\u2013Oyibi Road.',
     image: NEW.day.src, thumb: NEW.day.sm,
     gallery: [NEW.villa, NEW.dusk, NEW.day, NEW.night, NEW.dayRows, NEW.nightRows],
     body: [
@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     slug: 'city-of-david', name: 'City of David', status: 'selling', location: 'Malejor, Greater Accra',
-    tagline: 'A planned community of 800+ homes, ten minutes from the Adenta barrier.',
+    tagline: 'A planned community of over 800 homes, ten minutes from the Adenta barrier.',
     image: photo(IMG.aerial1), thumb: photo(IMG.aerial1, 800), gallery: [photo(IMG.aerial1), photo(IMG.aerial2), photo(IMG.room)].map((src) => ({ src, alt: 'City of David' })), enquiry: true,
     listingMatch: 'Malejor',
     body: [
@@ -45,7 +45,7 @@ export const projects = [
       'It is a planned community with space set aside for a police station, a children\u2019s playground, a church, shops, a crèche and recreation for adults, so families do not have to drive into town at weekends.',
       'If you would rather build your own, we also have serviced plots in the community with electricity, water and drainage, and ready for a building permit. Plot owners share the community\u2019s amenities.',
     ],
-    facts: [['Homes planned', '800+'], ['Location', 'Malejor, past the Adenta barrier, before Valley View University'], ['Plots', 'Serviced, permit-ready']],
+    facts: [['Homes planned', 'Over 800'], ['Location', 'Malejor, past the Adenta barrier, before Valley View University'], ['Plots', 'Serviced, permit-ready']],
     features: homeFeatures, amenities: communityAmenities, sitePlan: photo(IMG.sitePlan, 900),
   },
   {

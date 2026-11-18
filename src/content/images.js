@@ -36,7 +36,7 @@ export const newPhotos = [
   art(NEW.night, 'Salem Estate'),
   art(NEW.dayRows, 'Salem Estate', '50% 45%'),
   art(NEW.nightRows, 'Salem Estate', '50% 45%'),
-  art(NEW.salem, 'Salem Estate', '50% 45%'),
+  
 ];
 export const oldPhotos = [
   old(IMG.aerial1, 'Aerial view of the City of David community', 'City of David'),

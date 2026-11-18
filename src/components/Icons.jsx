@@ -6,3 +6,11 @@ export const Pin = () => <svg {...P}><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.
 export const Phone = () => <svg {...P}><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" /></svg>;
 export const Check = () => <svg {...P}><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>;
 export const House = () => <svg {...P} width="40" height="40" strokeWidth="1.3"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h13V10M10 20v-5h4v5" /></svg>;
+export const Shield = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z" /><path d="M9 12l2 2 4-4" /></svg>;
+export const Bolt = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M13 2 4 14h7l-1 8 9-12h-7z" /></svg>;
+export const Road = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M8 21 10 3M16 21l-2-18M12 5v2M12 11v2M12 17v2" /></svg>;
+export const Mountain = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M3 20 9 9l4 6 3-4 5 9z" /><circle cx="17" cy="6" r="1.5" /></svg>;
+export const Wallet = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M3 7h15a3 3 0 0 1 3 3v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM3 7l12-3v3M16 14h2" /></svg>;
+export const Home = () => <svg {...P} width="28" height="28" strokeWidth="1.5"><path d="M3 11.5 12 4l9 7.5M5.5 10v10h13V10M10 20v-5h4v5" /></svg>;
+export const Arrow = () => <svg {...P} width="16" height="16" strokeWidth="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>;
+export const Chat = () => <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a14 14 0 0 1-5.5-4.9c-.6-.8-1.2-1.9-1.2-2.9 0-1 .5-1.5.7-1.7.2-.2.4-.3.6-.3h.4c.2 0 .3 0 .5.4l.7 1.7c.1.1.1.3 0 .4l-.3.5-.4.4c-.1.1-.3.3-.1.5.5.8 1.1 1.4 1.8 1.9.5.4 1.1.7 1.6.9.2.1.4.1.5-.1l.7-.9c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.4.3.1.1.1.6-.1 1z" /></svg>;

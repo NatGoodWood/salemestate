@@ -1,7 +1,6 @@
-import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { projects, statusLabel } from '../content/projects';
-import { getPublicListings } from '../lib/api';
+import { listings } from '../content/listings';
 import { company, tel } from '../config';
 import { t } from '../lib/text';
 import ListingCard from '../components/ListingCard';
@@ -11,11 +10,7 @@ import { Check } from '../components/Icons';
 export default function ProjectDetail() {
   const { slug } = useParams();
   const p = projects.find((x) => x.slug === slug);
-  const [homes, setHomes] = useState([]);
-  useEffect(() => {
-    if (!p?.listingMatch) return;
-    getPublicListings().then((all) => setHomes(all.filter((l) => l.status === 'published' && `${l.location} ${l.title}`.includes(p.listingMatch)))).catch(() => {});
-  }, [p]);
+  const homes = p?.listingMatch ? listings.filter((l) => l.status === 'published' && `${l.location} ${l.title}`.includes(p.listingMatch)) : [];
 
   if (!p) return <div className="container narrow section"><h1>{t('detail.notFound')}</h1><Link className="btn btn-primary" to="/projects">{t('nav.projects')}</Link></div>;
 

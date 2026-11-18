@@ -1,7 +1,7 @@
 // Edit this file to rebrand the whole site.
 export const company = {
   name: 'Salem Estate',
-  legalName: 'Salem Investment LTD',
+  legalName: 'Salem Investment',
   tagline: 'Real estate developers',
   logoDark: '/images/logo.png',        // for light backgrounds
   logoLight: '/images/logo-light.png', // for dark backgrounds
@@ -15,6 +15,9 @@ export const company = {
   hours: 'Mon to Fri, 9 AM to 5 PM',
   founded: 1995,
 };
+// Contact form delivery. Get a free access key at web3forms.com (for the address in company.email), then put it in .env as VITE_WEB3FORMS_KEY.
+// Without a key the form opens the visitor's own email app with the message ready to send.
+export const emailKey = import.meta.env.VITE_WEB3FORMS_KEY || '';
 export const tel = (n) => n.replace(/\s/g, '');
 export const cities = ['Accra', 'Tema', 'Kumasi', 'Takoradi', 'Cape Coast', 'Tamale'];
 export const propertyTypes = { house: 'House', apartment: 'Apartment', townhouse: 'Townhouse', land: 'Land', commercial: 'Commercial' };
