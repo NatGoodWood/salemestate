@@ -22,7 +22,8 @@ export const NEW = {
   night: { src: '/images/aerial-night.jpg', sm: '/images/aerial-night-sm.jpg', alt: 'Aerial view of Salem Estate at night' },
   dayRows: { src: '/images/aerial-day-rows.jpg', sm: '/images/aerial-day-rows-sm.jpg', alt: 'Rows of Salem Estate homes from above' },
   nightRows: { src: '/images/aerial-night-rows.jpg', sm: '/images/aerial-night-rows-sm.jpg', alt: 'Salem Estate homes lit up at night' },
-  salem: { src: '/images/salem.jpeg', sm: '/images/salem.jpeg', alt: 'Salem Estate since 1999' },
+  greda: { src: '/images/greda.jpg', sm: '/images/greda.jpg', alt: 'Salem Estate since 1999' },
+  salem: { src: '/images/salemof.jpeg', sm: '/images/salemof.jpeg', alt: 'Salem Estate since 1999' },
 };
 
 const art = (n, label, pos) => ({ src: n.src, thumb: n.sm, alt: `${n.alt} (artist\u2019s impression)`, label, pos });

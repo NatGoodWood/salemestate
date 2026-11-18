@@ -7,6 +7,7 @@ export const company = {
   logoLight: '/images/logo-light.png', // for dark backgrounds
   phone: '+233 54 759 5308',            // WhatsApp and calls
   phoneAlt: '+233 26 661 4953',
+  phoneAlt: '+233 54 243 4768',
   office: '+233 302 816 218',
   whatsapp: '233547595308', // international format, no + or spaces
   email: 'info@salemestate.com',

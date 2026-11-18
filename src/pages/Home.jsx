@@ -17,7 +17,11 @@ import Counter from '../components/Counter';
 import { Check, Shield, Bolt, Road, Mountain, Wallet, Home as HomeIcon, Arrow } from '../components/Icons';
 
 const budgets = [[1100000, 'GH₵1,100,000'], [1300000, 'GH₵1,300,000'], [1900000, 'GH₵1,900,000'], [3000000, 'GH₵3,000,000']];
-const ticks = ['24/7 security in a gated community', 'Reliable water and electricity', 'Smooth tarred roads', 'Views facing the Aburi hills', 'Bright, airy interiors and ample compound space'];
+const ticks = ['Fully fitted kitchen', 'Fitted Air conditioners', 'Motorized Gate', 'Internet connectivity', 'Security surveillance cameras','Maids room/quarters','Carport','Walk in wardrobe','Water storage'];
+ 
+
+
+
 const stats = [
   { pre: 'Over', to: 20, label: 'years of experience' },
   { pre: 'Over', to: 200, label: 'homes delivered at Adjiringanor' },
