@@ -21,7 +21,7 @@ export const projects = [
       'Find your perfect sanctuary just minutes from Valley View University. Salem Estate is our newest development: a beautifully designed, gated community of modern single-family houses in a lush, peaceful setting that overlooks the Aburi Mountains.',
       'Whether you are a young professional buying your first home, a retiree looking for a quiet retreat, or a diaspora buyer seeking a secure, premium investment back home, choose from our spacious 3 and 4-bedroom luxury designs. These are homes, not flats.',
     ],
-    facts: [['Location', 'Adenta\u2013Oyibi Road, before Valley View University'], ['Home types', '3 and 4-bedroom houses'], ['Community', 'Gated, with 24/7 security'], ['Experience', '20+ years of real estate delivery']],
+    facts: [['Location', 'Adenta\u2013Oyibi Road, before Valley View University'], ['Home types', '3 and 4-bedroom houses'], ['Community', 'Gated, with 24/7 security'], ['Experience', 'Over 20 years of real estate delivery']],
     highlights: [
       ['Fully serviced and secure', '24/7 security, reliable water and electricity, and smooth tarred roads.'],
       ['Breathtaking views', 'Wake up to plush green scenery facing the Aburi hills.'],
