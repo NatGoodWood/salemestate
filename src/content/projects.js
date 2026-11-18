@@ -26,7 +26,7 @@ export const projects = [
       ['Fully serviced and secure', '24/7 security, reliable water and electricity, and smooth tarred roads.'],
       ['Breathtaking views', 'Wake up to plush green scenery facing the Aburi hills.'],
       ['Generous space', 'Built for family life, with bright, airy interiors and ample compound space.'],
-      ['20+ years of trust', 'Your investment is backed by more than two decades of real estate excellence.'],
+      ['Over 20 years of trust', 'Your investment is backed by more than two decades of real estate excellence.'],
     ],
     plans: [
       ['Custom payment plans', 'Flexible, tailored instalment terms to suit your financial timeline.'],
