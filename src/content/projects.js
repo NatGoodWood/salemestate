@@ -16,7 +16,7 @@ export const projects = [
     slug: 'salem-estate', name: 'Salem Estate', status: 'selling', badge: 'Newest development', location: 'Adenta\u2013Oyibi Road, before Valley View University',
     tagline: 'A gated community of modern 3 and 4-bedroom homes, facing the Aburi hills, off Malejor School Junction, before Valley View University on the Adenta\u2013Oyibi Road.',
     image: NEW.day.src, thumb: NEW.day.sm,
-    gallery: [NEW.villa, NEW.dusk, NEW.day, NEW.night, NEW.dayRows, NEW.nightRows],
+    gallery: [NEW.villa, NEW.dusk, NEW.day, NEW.night, NEW.dayRows, NEW.nightRows,NEW.fbedroom, NEW.bedroom],
     body: [
       'Find your perfect sanctuary just minutes from Valley View University. Salem Estate is our newest development: a beautifully designed, gated community of modern single-family houses in a lush, peaceful setting that overlooks the Aburi Mountains.',
       'Whether you are a young professional buying your first home, a retiree looking for a quiet retreat, or a diaspora buyer seeking a secure, premium investment back home, choose from our spacious 3 and 4-bedroom luxury designs. These are homes, not flats.',

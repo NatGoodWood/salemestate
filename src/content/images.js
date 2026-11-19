@@ -24,6 +24,8 @@ export const NEW = {
   nightRows: { src: '/images/aerial-night-rows.jpg', sm: '/images/aerial-night-rows-sm.jpg', alt: 'Salem Estate homes lit up at night' },
   greda: { src: '/images/greda.jpg', sm: '/images/greda.jpg', alt: 'Salem Estate since 1999' },
   salem: { src: '/images/salemof.jpeg', sm: '/images/salemof.jpeg', alt: 'Salem Estate since 1999' },
+  bedroom: { src: '/images/3bdplan.png', sm: '/images/3bdplan.png', alt: 'Three Bedroom plan' },
+  fbedroom: { src: '/images/4bdplan.png', sm: '/images/3bdplan.png', alt: 'Three Bedroom plan' },
 };
 
 const art = (n, label, pos) => ({ src: n.src, thumb: n.sm, alt: `${n.alt} (artist\u2019s impression)`, label, pos });
@@ -37,6 +39,7 @@ export const newPhotos = [
   art(NEW.night, 'Salem Estate'),
   art(NEW.dayRows, 'Salem Estate', '50% 45%'),
   art(NEW.nightRows, 'Salem Estate', '50% 45%'),
+  
   
 ];
 export const oldPhotos = [
