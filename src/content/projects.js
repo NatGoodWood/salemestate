@@ -60,4 +60,4 @@ export const projects = [
     features: homeFeatures,
   },
 ];
-export const statusLabel = { selling: 'Now selling', sold: 'Sold out', soon: 'Coming soon' };
+export const statusLabel = { selling: '', sold: 'Sold out', soon: 'Coming soon' };

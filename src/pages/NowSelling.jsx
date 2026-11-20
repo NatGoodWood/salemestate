@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { listings } from '../content/listings';
 import { NEW } from '../content/images';
 import { t } from '../lib/text';
-import ListingCard from '../components/ListingCard';
+//import ListingCard from '../components/ListingCard';
 import Reveal from '../components/Reveal';
 
 export default function NowSelling() {
@@ -23,10 +23,10 @@ export default function NowSelling() {
         </Link>
       </Reveal>
 
-      <h2 className="sub">Homes in City of David, Malejor</h2>
+      {/* <h2 className="sub">Homes in City of David, Malejor</h2>
       {items.length === 0 ? <p className="muted">{t('home.empty')}</p> : (
         <div className="grid">{items.map((l, k) => <Reveal key={l.id} delay={k * 100}><ListingCard listing={l} /></Reveal>)}</div>
-      )}
+      )} */}
       <p className="fineprint">Prices are exclusive of taxes and may change without prior notice.</p>
     </div>
   );

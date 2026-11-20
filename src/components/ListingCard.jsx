@@ -12,7 +12,7 @@ export default function ListingCard({ listing: l }) {
     <article className="card">
       <Link to={to} className="card-media" tabIndex={-1} aria-hidden="true">
         {l.images?.[0] ? <img src={l.images[0]} alt="" loading="lazy" /> : <div className="placeholder"><House /></div>}
-        <span className="badge">{badge}</span>
+        
       </Link>
       <div className="card-body">
         <h3><Link to={to}>{l.title}</Link></h3>

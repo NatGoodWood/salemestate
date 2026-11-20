@@ -4,7 +4,7 @@ import { photo, IMG } from './images';
 import { homeFeatures } from './projects';
 
 const base = {
-  currency: 'GHS', listing_type: 'sale', property_type: 'house', status: 'published', featured: true,
+  currency: 'GHS', listing_type: '', property_type: '', status: 'published', featured: true,
   city: 'Accra', location: 'Malejor, City of David', features: homeFeatures, created_at: '2026-09-01T10:00:00Z',
 };
 const note = 'Prices are exclusive of taxes and are subject to change without prior notice.';
