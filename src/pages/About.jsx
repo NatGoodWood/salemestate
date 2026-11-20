@@ -9,7 +9,7 @@ export default function About() {
   const people = team.filter((m) => m.name && m.name !== 'Add name');
   return (
     <>
-      <section className="page-hero" style={{ '--hero': `url(${NEW.day.src})` }}>
+      <section className="page-hero" style={{ '--hero': `url(${NEW.salem.src})` }}>
         <div className="container"><span className="eyebrow light">About us</span><h1>A Ghanaian home builder</h1></div>
       </section>
 
