@@ -19,9 +19,10 @@ export default function About() {
           <p>We started by importing and retailing building materials. In 1999 we moved into real estate, and we have since earned a reputation as a dependable supplier of well-made homes for different budgets and clients.</p>
           <p>Our work goes beyond houses. We also build roads, mechanised boreholes and recreational parks for children, and we have won and delivered projects under the Government of Ghana’s MSDI and MBDA programmes. Our team of professionals delivers quality homes on schedule.</p>
         </div>
+        
         <aside className="panel quote">
-          <h3>What we aim for</h3>
-          <p>Quality housing estates where satisfied customers own wonderful homes, at fair prices, in pristine and beautifully landscaped communities.</p>
+          <h3>CORPORATE VISION/ MISSION</h3>
+          <p>Salem Homes aims at “providing quality housing estates where satisfied customers own or are owners of wonderful homes at incomparable prices in pristine and beautifully landscaped communities”.</p>
           <p className="muted">Active member of GREDA since 1999.</p>
         </aside>
       </section>

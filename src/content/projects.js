@@ -35,10 +35,11 @@ export const projects = [
     enquiry: true,
     note: 'Images are artist\u2019s impressions and may differ from the completed homes.',
   },
+  
   {
     slug: 'city-of-david', name: 'City of David', status: 'selling', location: 'Malejor, Greater Accra',
     tagline: 'A planned community of over 800 homes, ten minutes from the Adenta barrier.',
-    image: photo(IMG.aerial1), thumb: photo(IMG.aerial1, 800), gallery: [photo(IMG.aerial1), photo(IMG.aerial2), photo(IMG.room)].map((src) => ({ src, alt: 'City of David' })), enquiry: true,
+    image: photo(IMG.aerial1), thumb: photo(IMG.aerial1, 800), gallery: [photo(IMG.aerial1), photo(IMG.aerial2), photo(IMG.room)].map((src) => ({ src, alt: 'City of David' })), enquiry: false,
     listingMatch: 'Malejor',
     body: [
       'City of David offers homes with drainage, water and electricity already in place, so you can settle in as soon as you receive your keys.',

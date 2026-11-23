@@ -18,7 +18,7 @@ export const company = {
 };
 // Contact form delivery. Get a free access key at web3forms.com (for the address in company.email), then put it in .env as VITE_WEB3FORMS_KEY.
 // Without a key the form opens the visitor's own email app with the message ready to send.
-export const emailKey = import.meta.env.VITE_WEB3FORMS_KEY || '';
+export const emailKey = import.meta.env.VITE_WEB3FORMS_KEY || '94eb390c-a827-4c2c-ae81-0c4ce5b7312f';
 export const tel = (n) => n.replace(/\s/g, '');
 export const cities = ['Accra', 'Tema', 'Kumasi', 'Takoradi', 'Cape Coast', 'Tamale'];
 export const propertyTypes = { house: 'House', apartment: 'Apartment', townhouse: 'Townhouse', land: 'Land', commercial: 'Commercial' };
